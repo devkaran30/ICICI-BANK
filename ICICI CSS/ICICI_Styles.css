@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_no{
+    display: flex;
+    background-color: #FFF0E5;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 15px;
+    color: #B02A30;
+}
+
+.nav-category{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FCE6D3;
+    width: fit-content;  
+    border-radius: 7px; 
+    font: 15px ;
+    font-family:  sans-serif;
+
+}
+.sub_nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font: 14px;
+    font-family: sans-serif;
+    color: #333333;
+    /* padding: 6px ; */
+}
+.sub_nav *:not(.phone_no,.phone_no *):hover{
+        color: #f18121;
+}
+
+.phone{
+    background-color: #B02A30;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+.flag{
+    width: 25px;
+}
+/* .sub_nav *{
+    padding-top: 10px;
+} */
+
+.nav-category *:hover{
+    transform: scale(1.1);
+    background-color: #f18121;
+    border-radius: 7px;
+}
+.nav-category *{
+    padding: 10px;
+}
+
+.logo{
+    width: 110px;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+.ICICI_LOGO{
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    width: 87%;
+    padding: 5px;
+    border: 0px;
+    border-radius: 6px;
+    font-size: large ;
+    outline: none;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+    border: 1px solid #f18121;
+    border-radius: 6px;
+}
