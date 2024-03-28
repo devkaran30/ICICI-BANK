@@ -27,7 +27,7 @@
     background-color: #FCE6D3;
     width: fit-content;  
     border-radius: 7px; 
-    font: 15px ;
+    font-size: 15px ;
     font-family:  sans-serif;
 
 }
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    font: 14px;
+    font-size: 14px;
     font-family: sans-serif;
     color: #333333;
     /* padding: 6px ; */
@@ -68,14 +68,16 @@
 }
 
 .logo{
-    width: 110px;
-    margin-right: 10%;
-    margin-left: 10%;
+    width: 135px;
 
 }
 .ICICI_LOGO{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 4px;
 }
 .search-input{
     width: 87%;
@@ -83,6 +85,7 @@
     border: 0px;
     border-radius: 6px;
     font-size: large ;
+    font-weight: bolder;
     outline: none;
 }
 
@@ -90,7 +93,44 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 40%;
+    width: 85%;
     border: 1px solid #f18121;
     border-radius: 6px;
+}
+.login{
+    text-align: center;
+    border: 1px solid #f18121;
+    border-radius: 6px;
+    background-color: #f18121;
+    padding : 5px 20px 5px 20px;
+    width: fit-content;
+}
+.Bell{
+    padding: 5px;
+    border-radius: 50%;
+    font-size: x-large;
+}
+
+.wrapper{
+    background-color: #FCE6D3;
+
+}
+
+
+.navbar-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 35px;
+}
+
+
+.logo_wrapper{
+    display: flex;
+    width: 58%;
+    gap:10px;
 }
