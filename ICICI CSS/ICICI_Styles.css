@@ -13,6 +13,8 @@ body{
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
+    
+    padding: 10px; /* Padding */
 }
 
 .phone_no{
@@ -33,7 +35,7 @@ body{
     border-radius: 7px; 
     font-size: 15px ;
     font-family:  sans-serif;
-
+    display: inline-block;
 }
 .sub_nav{
     display: flex;
@@ -63,6 +65,27 @@ body{
     display: flex;
     align-items: center;
 }
+.nav-category p {
+    
+    color: black;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+.nav-category p:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-category p:hover {
+    background-color: orange;
+    transform: scale(1.1);
+    color: white;
+    font-weight: bold;
+}
 
 .divider {
     margin: 0 10px; 
@@ -75,8 +98,6 @@ body{
 }
 
 .nav-category *:hover{
-    /* transform: scale(1.1); */
-    /* background-color: #f18121; */
     color: #f18121;
     border-radius: 7px;
 }
